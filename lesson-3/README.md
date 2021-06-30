@@ -1,3 +1,7 @@
+[Схема взаимодействия клиента и сервера](./slides/Client-Server-schema.jpg)
+
+[Как работают middleware в express](./slides/middleware-work-schema.jpg)
+
 [Что такое CRUD и REST API](./slides/CRUD.jpg)
 
 [Как писали роуты до REST API](./slides/old-routes-example.jpg)
