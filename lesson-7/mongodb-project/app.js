@@ -13,6 +13,7 @@ app.use(cors());
 // /api/v1/books
 // /api/v1/products/1
 app.use("/api/v1/products", api.products);
+app.use("/api/v1/categories", api.categories);
 
 app.use((_, res)=>{
     res.status(404).json({
@@ -38,7 +39,6 @@ mongoose.connect(DB_HOST, {
     useCreateIndex: true,
     useUnifiedTopology: true
 }).then(()=> {
-    console.log("Database running");
     app.listen(PORT);
 })
 .catch(error => console.log(error))

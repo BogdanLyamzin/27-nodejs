@@ -22,6 +22,7 @@ const Category = model("category", categorySchema);
 
 mongoose.connect(DB_HOST, {
     useNewUrlParser: true,
+    useCreateIndex: true,
     useUnifiedTopology: true
 }).then(async ()=> {
     const newCategory = {
