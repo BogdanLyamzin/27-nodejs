@@ -1,0 +1,15 @@
+.pagination {
+    list-style: none;
+    display: flex;
+}
+
+.paginationItem {
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.paginationItemActive {
+    cursor: pointer;
+    margin: 0 15px;
+    font-weight: bold;
+}
